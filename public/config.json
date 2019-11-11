@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "42b775c4-7829-4bcb-8a1f-ab76279d5429",
+      "applicationExtensionKey": "ad3d4a1a-c690-40bd-9e05-1da636f39158",
        "save": {
            "url": "https://lance-twilio-sfmc.herokuapp.com/save",
             "verb": "POST",
