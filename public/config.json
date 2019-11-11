@@ -30,9 +30,9 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "ad3d4a1a-c690-40bd-9e05-1da636f39158",
+      "applicationExtensionKey": "42b775c4-7829-4bcb-8a1f-ab76279d5429",
        "save": {
-           "url": "https://lance-twilio-sfmc.herokuapp.com/save",
+           "url": "https://lance-twilio-sfmc.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -40,7 +40,7 @@
             "timeout": 2000
        },
        "publish": {
-           "url": "https://lance-twilio-sfmc.herokuapp.com/publish",
+           "url": "https://lance-twilio-sfmc.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -48,7 +48,7 @@
             "timeout": 2000
        },
        "validate": {
-           "url": "https://lance-twilio-sfmc.herokuapp.com/validate",
+           "url": "https://lance-twilio-sfmc.herokuapp.com/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -56,7 +56,7 @@
             "timeout": 2000
        },
        "stop": {
-           "url": "https://lance-twilio-sfmc.herokuapp.com/stop",
+           "url": "https://lance-twilio-sfmc.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
