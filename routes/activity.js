@@ -79,14 +79,14 @@ exports.execute = function (req, res) {
     const to = requestBody.to;
     const from = requestBody.from;
     const body = requestBody.body;
-    const mediaUrl = requestBody.mediaUrl;
+    //const mediaUrl = requestBody.mediaUrl;
 
     const client = require('twilio')(accountSid, authToken); 
      
     client.messages 
           .create({ 
              body: body,
-             mediaUrl: mediaUrl,
+             //mediaUrl: mediaUrl,
              from: from,
              to: to
            }) 
