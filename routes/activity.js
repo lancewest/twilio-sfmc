@@ -77,7 +77,7 @@ exports.execute = function (req, res) {
     const accountSid = requestBody.accountSid;
     const authToken = requestBody.authToken;
     const to = requestBody.to;
-    const from = requestBody.from;
+    const messagingService = requestBody.messagingService;
     const body = requestBody.body;
     //const mediaUrl = requestBody.mediaUrl;
 
@@ -87,7 +87,7 @@ exports.execute = function (req, res) {
           .create({ 
              body: body,
              //mediaUrl: mediaUrl,
-             from: from,
+             from: messagingService,
              to: to
            }) 
           .then(message => console.log(message.sid)) 

@@ -58,8 +58,8 @@ define([
                     $('#authToken').val(val);
                 }
 
-                if (key === 'from') {
-                    $('#fromNumber').val(val);
+                if (key === 'messagingService') {
+                    $('#messagingService').val(val);
                 }
 
                 if (key === 'body') {
